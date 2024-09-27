@@ -1,0 +1,40 @@
+
+# Workspace:
+
+it's a folder which you define in which path it should be.
+
+It's the way which golang organizes your projects.
+
+golang usually keeps all the projects in this folder.
+its golang's solution for organizing the projects.
+It's better for you to only have one workspace folder in your system for keeping all your projects.
+
+For defining the workspace path you have to set GOPATH local variable, but when you
+install the compiler of golang, based on your operating system, it sets the value of
+GOPATH local variable.
+
+Ex in windows ==> c:\Users\Amir\go
+
+# command for seeing the value of  GOPATH ==> go env
+
+=====================================================================
+
+Workspace folder contains several folders:
+
+    src ==> for managing the code which we write ==> all codes which we write
+    or libraries which we add/import to projects from github, are in this folder
+
+    pkg ==> for keeping non-executable files (shared libraries)
+
+    bin ==> for keeping binary - executable files of golang.
+    every tool which install by "go install" will keep in this folder.
+
+
+Ex of bin ==> you can install programs which are written in golang on your os
+              using "go install" command
+
+Ex: go install github.com/hhatto/gocloc/cmd/gocloc@latest
+
+this program counts the lines of the codes only
+
+now check bin folder to see the exe file of above repository \:D/

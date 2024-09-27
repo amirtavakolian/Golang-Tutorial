@@ -1,0 +1,43 @@
+
+# Package:
+
+A tool, which we can make our project structured.
+
+When the number of lines of our codes goes up, we can't manage them
+in one or two fires or folders
+
+Based on the functionality of our codes, the codes which have similar functionality,
+it's better to put them in a folder or package
+
+--------------------------------------------------------
+
+golang has provided a very simple way for Structuring and modularization:
+it says: you can define/choose a package name, for each folder in your project
+==>
+if you have one file or 100 files, if all of them are in one folder,
+all of them must have one package name only.
+==>
+and the first line of each file must be the name of the package.
+
+Ex:
+a package for math functionalities,
+a package for database functionalities
+
+Ex: main package
+
+--------------------------------------------------------
+
+# Encapsulation:
+
+For having encapsulation in modules or packages in golang:
+if you want to public or expose a function/method or variable in a package,
+which other packages can use that functionality,
+make the first letter of that function name uppercase
+
+if a function/method or variable has internal usage and no need to expose it
+to outside, make the first letter of the name of that function or method lower-case
+==>
+because it has no usage for outside of that package :D :P
+
+
+Ex of public function/method ==> math.Pi | fmt.Print ==> all start with Upper case letter

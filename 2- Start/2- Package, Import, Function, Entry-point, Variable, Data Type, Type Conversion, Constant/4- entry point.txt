@@ -1,0 +1,16 @@
+
+Each golang software has an entry point.
+
+When we run the "go build" or "go run" commands, when the compiler wants to start reading our codes
+and convert them to machine code and create an execute-able file from the code,
+It needs an entry point to a start from. ==> it looks like a source and destination
+
+This entry point defines where the compiler should start compiling from.
+
+-------------------------------------
+
+in golang softwares, the entry point, must be in a package called main
+==> the package name MUST/SHOULD be main,
+in that package, there should be a function called main.
+
+So this main function will be the entry point of our software.

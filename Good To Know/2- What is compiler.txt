@@ -1,0 +1,71 @@
+
+What is compiler?
+Compiler is also a software which is written by a programming language like
+c, c++, java, golang & etc...
+Which converts/translates the code which humans write & understand easier (high level code),
+to a code/language (instructions) which CPU can understand
+( 0 & 1 == machine code == instruction (list of works like cooking) )
+
+Ex: golang compiler is written with golang :D ==>
+
+in computer, everything is 0 & 1 :D
+
+Ex ==> echo "hello world"  ==> compiler ==> 010101010101010101011111000000101010011100001111111000
+
+
+echo "hello world" ==> understand-able for human
+
+01010101010101001  ==> understand-able for machine - cpu
+
+-------------------------------------------------------
+
+# Difference between compiler and interpreter languages:
+
+Imagine an English translator which we give him a text and tell him
+bring it to your house, translate it, and come to a live tv show and read from that.
+
+Now imagine another English translator which we don't give him a text previously.
+We tell him to come to the TV show and start translating in real-time
+=>
+So it's harder than the first translator & it has more complexity and more time-consuming
+But the first translator has done the translating and now his ready from before and read it so fast
+
+this is one of the difference between compiler and which is an interpreter languages
+==> having better performance (speed of executing)
+meanwhile, the interpreter languages have done several works for having better performance.
+
+speed of executing is high in compiler langs because the codes are compiled to machine code from before
+not at run time and when we run them they run in a row without any break
+==>
+but the interpreter reads our code we have written and translate them to machine code at runtime
+so it takes some time for translating
+
+so, the performance is one of the difference between the interpreter and compiler languages
+
+--------------------------------
+
+consider an auto drive car which the driver tells it, go to kianpars.
+the car doesn't know what kianpars is.
+
+but, inside that car, there will be codes which convert our sound to lat & long
+and a compiler or interpreter which convert - compile our sound to language of that
+car's operating system cpu :D
+
+=============================================
+
+What is binary file?
+
+binary file is a computer file that is not text file (its content is not plain text)
+==> binary file is often used as a term meaning non-text file which its content is not plaing text
+(each file which is not text is called binary)
+
+lozoman ye file E binary, ye file E ejraii nist ==> ye seri file ke be sorate
+2 2ii hastesh por az عدد va... hastesh ke beheshon migim machine code :D
+fahmesh vase mashin sade tare.
+
+ye file E binary ke mohtavash ye tasviri hastesh ya masalan ye document E word ke hamashon
+file haie binary hastand ==> fahmesh tavasote mashin sadast na vase ma
+
+
+file haie text vase ma fahmeshon (fahme mohtavash) kheili sadast va ina joze file haie binary hesab nemishan
+vali file haie binary fahmeshon be in sadegi nist chon mohtavash 2 2ii E.
